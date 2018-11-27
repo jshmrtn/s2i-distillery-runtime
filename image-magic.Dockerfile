@@ -1,6 +1,6 @@
 FROM openshift/base-centos7
 
-RUN yum install openssl-libs ImageMagic -y \
+RUN yum install openssl-libs ImageMagick -y \
   && localedef -i en_US -f UTF-8 en_US.UTF-8
 
 ENV LANG en_US.UTF-8
